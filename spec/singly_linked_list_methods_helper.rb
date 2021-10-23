@@ -11,8 +11,20 @@ describe LinkedList do
     end
   end
 
-  describe "#remove" do
-    it "removes the element at the end of the list" do
+  describe "#prepend" do
+    it "dds a node to the beginning of the list / head" do
+      
+    end
+  end
+
+  describe "#delete_head" do
+    it "removes the node at the beginning of the list" do
+      
+    end
+  end
+
+  describe "#delete_tail" do
+    it "removes the node at the end of the list" do
       
     end
   end
@@ -23,7 +35,7 @@ describe LinkedList do
     end
   end
 
-  describe "#find_node" do
+  describe "#search" do
     it "finds a node within the list" do
      
     end
